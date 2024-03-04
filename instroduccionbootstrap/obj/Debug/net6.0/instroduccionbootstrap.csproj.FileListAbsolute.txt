@@ -28,3 +28,4 @@ C:\Users\JeanCarloAlcázar\source\repos\instroduccionbootstrap\instroduccionboot
 C:\Users\JeanCarloAlcázar\source\repos\instroduccionbootstrap\instroduccionbootstrap\obj\Debug\net6.0\instroduccionbootstrap.pdb
 C:\Users\JeanCarloAlcázar\source\repos\instroduccionbootstrap\instroduccionbootstrap\obj\Debug\net6.0\instroduccionbootstrap.genruntimeconfig.cache
 C:\Users\JeanCarloAlcázar\source\repos\instroduccionbootstrap\instroduccionbootstrap\obj\Debug\net6.0\ref\instroduccionbootstrap.dll
+C:\Users\JeanCarloAlcázar\source\repos\instroduccionbootstrap\instroduccionbootstrap\obj\Debug\net6.0\instroduccionbootstrap.sourcelink.json
