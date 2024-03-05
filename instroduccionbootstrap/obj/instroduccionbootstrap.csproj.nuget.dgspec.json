@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JeanCarloAlcázar\\source\\repos\\instroduccionbootstrap\\instroduccionbootstrap\\instroduccionbootstrap.csproj": {}
+    "C:\\Users\\JeanCarloAlcázar\\Source\\Repos\\Bootstrap\\instroduccionbootstrap\\instroduccionbootstrap.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JeanCarloAlcázar\\source\\repos\\instroduccionbootstrap\\instroduccionbootstrap\\instroduccionbootstrap.csproj": {
+    "C:\\Users\\JeanCarloAlcázar\\Source\\Repos\\Bootstrap\\instroduccionbootstrap\\instroduccionbootstrap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JeanCarloAlcázar\\source\\repos\\instroduccionbootstrap\\instroduccionbootstrap\\instroduccionbootstrap.csproj",
+        "projectUniqueName": "C:\\Users\\JeanCarloAlcázar\\Source\\Repos\\Bootstrap\\instroduccionbootstrap\\instroduccionbootstrap.csproj",
         "projectName": "instroduccionbootstrap",
-        "projectPath": "C:\\Users\\JeanCarloAlcázar\\source\\repos\\instroduccionbootstrap\\instroduccionbootstrap\\instroduccionbootstrap.csproj",
+        "projectPath": "C:\\Users\\JeanCarloAlcázar\\Source\\Repos\\Bootstrap\\instroduccionbootstrap\\instroduccionbootstrap.csproj",
         "packagesPath": "C:\\Users\\JeanCarloAlcázar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JeanCarloAlcázar\\source\\repos\\instroduccionbootstrap\\instroduccionbootstrap\\obj\\",
+        "outputPath": "C:\\Users\\JeanCarloAlcázar\\Source\\Repos\\Bootstrap\\instroduccionbootstrap\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
