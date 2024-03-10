@@ -1,145 +1,88 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+	ViewData["Title"] = "Home Page";
 }
 
-<div class="row">
-    <div class="col">
-        columna 1
-    </div>
 
-    <div class="col">
-        columna 2
-    </div>
-
-    <div class="col">
-        columna 3
-    </div>
-
-    <div class="col">
-        columna 4
-    </div>
-
-    <div class="col">
-        columna 5
-    </div>
-
-    <div class="col">
-        columna 6
-    </div>
-
-    <div class="col">
-        columna 7
-    </div>
-
-    <div class="col">
-        columna 8
-    </div>
-
-    <div class="col">
-        columna 9
-    </div>
-
-    <div class="col">
-        columna 10
-    </div>
-
-    <div class="col">
-        columna 11
-    </div>
-
-    <div class="col">
-        columna 12
-    </div>
-</div>
-
-<br />
-
-Ejemplo 1: Alinear filas
-
-<div class="row align-items-start">
-    <div class="col">
-        columna 1
-    </div>
-
-    <div class="col">
-        columna 2
-    </div>
-
-    <div class="col">
-        columna 3
-    </div>
-</div>
-
-<br />
-
-<div class="row align-items-center">
-    <div class="col">
-        columna 1
-    </div>
-
-    <div class="col">
-        columna 2
-    </div>
-
-    <div class="col">
-        columna 3
-    </div>
-</div>
-
-<br />
-
-<div class="row align-items-end">
-    <div class="col">
-        columna 1
-    </div>
-
-    <div class="col">
-        columna 2
-    </div>
-
-    <div class="col">
-        columna 3
-    </div>
-</div>
-
-<br />
-
-Ejemplo 2: Alineado las columnas horizontalmente
-
-<div>
-    <div class="row">
-        <div class="col align-self-start">
-            columna 1
-        </div>
-
-        <div class="col align-self-center">
-            columna 2
-        </div>
-
-        <div class="col align-self-end">
-            columna 3
-        </div>
-    </div>
-</div>
-
-<br />
-
-Ejemplo 3: offset
-
-<div>
-    <div class="row">
-        <div class="col-4">columna 1</div>
-
-        <div class="col-4 offset-4">columna 2</div>
-    </div>
-</div>
-
-<br />
-
-Ejemplo 4: Auto Margen
+Ejemplo 5: Gutter horizontal
 
 <div class="row">
-    <div class="col-3">columna 1</div>
 
-    <div class="col-4 ms-auto">columna 2</div>
+	<div class="col">
+
+		<div class="bg-light border">
+			columna 1
+		</div>
+
+	</div>
+
+	<div class="col">
+
+		<div class="bg-light border">
+			columna 2
+		</div>
+
+	</div>
+
 </div>
+
+<br />
+
+Ejemplo 6: Gutter verical
+
+<div class="row g-5">
+
+	<div class="col-6">
+
+		<div class="bg-light border">
+			columna 1
+		</div>
+
+	</div>
+
+	<div class="col-6">
+
+		<div class="bg-light border">
+			columna 2
+		</div>
+
+	</div>
+
+	<div class="col-6">
+
+		<div class="bg-light border">
+			columna 3
+		</div>
+
+	</div>
+
+	<div class="col-6">
+
+		<div class="bg-light border">
+			columna 4
+		</div>
+
+	</div>
+
+</div>
+
+Ejemplo 7: Poner imagenes 
+<div class="row">
+	<div class="col-4">
+		<img class="img-fluid" src="https://e.rpp-noticias.io/xlarge/2022/03/16/241224_1232803.jpg" />
+	</div>
+	<div class="col-4">
+		<img class="img-fluid" src="https://e.rpp-noticias.io/xlarge/2022/03/16/241224_1232803.jpg" />
+	</div>
+	<div class="col-4">
+		<img class="img-fluid" src="https://e.rpp-noticias.io/xlarge/2022/03/16/241224_1232803.jpg" />
+	</div>
+</div>
+
+<br /> 
+
+Ejemplo 8: Imagen tipo thumbnail
+
+
+<img 
+	class="img img-thumbnail rounded-circle"
+	src="https://i.pinimg.com/736x/2b/9f/62/2b9f62bfb88678b7fa2df61958cb1731.jpg"/>
