@@ -2,28 +2,40 @@
     ViewData["Title"] = "Home Page";
 }
 
-Ejemplo 11: Margenes
+Ejemplo 12: Alinear textos
 
-<div>
+<p class="text-start">Texto a la izquierda.</p>
 
-    fila 1
+<p class="text-center">Texto en el centro.</p>
 
-</div>
+<p class="text-end">Texto a la derecha.</p>
 
-<div class="my-3">
+<p class="text-sm-center">Texto centralizado en pantallas pequeñas o mas grandes.</p>
 
-    fila 2
+<p class="text-md-center">Texto centralizado en pantallas medias o mas grandes.</p>
 
-</div>
+<p class="text-lg-center">Texto centralizado en pantallas grandes o mas grandes.</p>
 
-<div>
+<p class="text-xl-center">Texto centralizado en pantallas extra-grandes o mas grandes.</p>
 
-    fila 3
-
-</div>
+Ejemplo13: Texto dentro de su contenedor
 
 <br />
 
-<button class="btn btn-primary p-5">Boton 1</button>
+<di class="badge bg-primary text-wrap" style="width: 6rem">
 
-<button class="btn btn-secondary ms-5">Boton 2</button>
+    Este texto no se sale de su contenedor
+
+</di>
+
+<br />
+
+<div class="badge bg-primary text-wrap text-break" style="width 6rem">
+
+    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+
+</div>
+
+<p class="text-lowercase">Minúsculas</p>
+<p class="text-uppercase">Mayúsculas</p>
+<p class="text-capitalize">cada palabara con mayúscula</p>
