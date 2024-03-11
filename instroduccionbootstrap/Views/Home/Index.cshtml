@@ -1,88 +1,107 @@
 ﻿@{
-	ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home Page";
 }
 
+Ejemplo 9: Tablas
 
-Ejemplo 5: Gutter horizontal
+<table class="table table-striped table-hover table-bordered">
+
+    <thead>
+
+    <tr>
+        <th>·</th>
+
+        <th>Nomre</th>
+
+        <th>Apellido</th>
+    </tr>
+
+    </thead>
+
+    <tbody>
+
+        <tr>
+            <td>1</td>
+
+            <td>Felipe</td>
+
+            <td>Gavilán</td>
+
+        </tr>
+
+        <tr class="table-success">
+            <td>2</td>
+
+            <td>Claudia</td>
+
+            <td>Rodriguez</td>
+
+        </tr>
+
+        <tr>
+            <td>3</td>
+
+            <td colspan="2">Roberto Gonzalez</td>
+
+        </tr>
+
+    </tbody>
+
+</table>
+
+
+Ejemplo 10:Agregar video
+
+<div>
+
+    Sin ratio
+
+</div>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QBqCZInpaSg?si=eaw8L4931RECwAPT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<div>
+
+    con ratio de 16x9
+
+</div>
+
+<div class="ratio ratio-16x9">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QBqCZInpaSg?si=eaw8L4931RECwAPT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</div>
 
 <div class="row">
 
-	<div class="col">
+    <div class="col-md-4">
 
-		<div class="bg-light border">
-			columna 1
-		</div>
+        <div class="ratio ratio-16x9">
 
-	</div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QBqCZInpaSg?si=eaw8L4931RECwAPT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-	<div class="col">
+        </div>
 
-		<div class="bg-light border">
-			columna 2
-		</div>
+    </div>
 
-	</div>
+    <div class="col-md-4">
 
-</div>
+        <div class="ratio ratio-16x9">
 
-<br />
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QBqCZInpaSg?si=eaw8L4931RECwAPT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Ejemplo 6: Gutter verical
+        </div>
 
-<div class="row g-5">
+    </div>
 
-	<div class="col-6">
+    <div class="col-md-4">
 
-		<div class="bg-light border">
-			columna 1
-		</div>
+        <div class="ratio ratio-16x9">
 
-	</div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QBqCZInpaSg?si=eaw8L4931RECwAPT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-	<div class="col-6">
+        </div>
 
-		<div class="bg-light border">
-			columna 2
-		</div>
-
-	</div>
-
-	<div class="col-6">
-
-		<div class="bg-light border">
-			columna 3
-		</div>
-
-	</div>
-
-	<div class="col-6">
-
-		<div class="bg-light border">
-			columna 4
-		</div>
-
-	</div>
+    </div>
 
 </div>
-
-Ejemplo 7: Poner imagenes 
-<div class="row">
-	<div class="col-4">
-		<img class="img-fluid" src="https://e.rpp-noticias.io/xlarge/2022/03/16/241224_1232803.jpg" />
-	</div>
-	<div class="col-4">
-		<img class="img-fluid" src="https://e.rpp-noticias.io/xlarge/2022/03/16/241224_1232803.jpg" />
-	</div>
-	<div class="col-4">
-		<img class="img-fluid" src="https://e.rpp-noticias.io/xlarge/2022/03/16/241224_1232803.jpg" />
-	</div>
-</div>
-
-<br /> 
-
-Ejemplo 8: Imagen tipo thumbnail
-
-
-<img 
-	class="img img-thumbnail rounded-circle"
-	src="https://i.pinimg.com/736x/2b/9f/62/2b9f62bfb88678b7fa2df61958cb1731.jpg"/>

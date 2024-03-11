@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jcarlo\\.nuget\\packages\\": {}
+    "C:\\Users\\JeanCarloAlcázar\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jcarlo\\Documents\\Cole\\instroduccionbootstrap\\instroduccionbootstrap.csproj",
+      "projectUniqueName": "C:\\Users\\JeanCarloAlcázar\\Documents\\Jean Carlo\\Bootstrap\\instroduccionbootstrap\\instroduccionbootstrap.csproj",
       "projectName": "instroduccionbootstrap",
-      "projectPath": "C:\\Users\\jcarlo\\Documents\\Cole\\instroduccionbootstrap\\instroduccionbootstrap.csproj",
-      "packagesPath": "C:\\Users\\jcarlo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jcarlo\\Documents\\Cole\\instroduccionbootstrap\\obj\\",
+      "projectPath": "C:\\Users\\JeanCarloAlcázar\\Documents\\Jean Carlo\\Bootstrap\\instroduccionbootstrap\\instroduccionbootstrap.csproj",
+      "packagesPath": "C:\\Users\\JeanCarloAlcázar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JeanCarloAlcázar\\Documents\\Jean Carlo\\Bootstrap\\instroduccionbootstrap\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\jcarlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JeanCarloAlcázar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -40,11 +46,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -69,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
