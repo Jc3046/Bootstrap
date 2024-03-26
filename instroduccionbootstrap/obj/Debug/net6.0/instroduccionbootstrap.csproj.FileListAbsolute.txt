@@ -121,3 +121,4 @@ C:\Users\JeanCarloAlcázar\Documents\Jean Carlo\Bootstrap\instroduccionbootstrap
 C:\Users\JeanCarloAlcázar\Documents\Jean Carlo\Bootstrap\instroduccionbootstrap\obj\Debug\net6.0\instroduccionbootstrap.pdb
 C:\Users\JeanCarloAlcázar\Documents\Jean Carlo\Bootstrap\instroduccionbootstrap\obj\Debug\net6.0\instroduccionbootstrap.genruntimeconfig.cache
 C:\Users\JeanCarloAlcázar\Documents\Jean Carlo\Bootstrap\instroduccionbootstrap\obj\Debug\net6.0\ref\instroduccionbootstrap.dll
+C:\Users\jcarlo\Documents\Cole\instroduccionbootstrap\obj\Debug\net6.0\instroduccionbootstrap.sourcelink.json

@@ -2,40 +2,52 @@
     ViewData["Title"] = "Home Page";
 }
 
-Ejemplo 12: Alinear textos
+Ejemplo 13: Formularios 
 
-<p class="text-start">Texto a la izquierda.</p>
+<form>
 
-<p class="text-center">Texto en el centro.</p>
+    <div class="mb-3">
 
-<p class="text-end">Texto a la derecha.</p>
+        <label class="form-label">Email</label>
 
-<p class="text-sm-center">Texto centralizado en pantallas pequeñas o mas grandes.</p>
+        <input type="email" class="form-control" />
 
-<p class="text-md-center">Texto centralizado en pantallas medias o mas grandes.</p>
+    </div>
 
-<p class="text-lg-center">Texto centralizado en pantallas grandes o mas grandes.</p>
+    <div class="mb-3">
 
-<p class="text-xl-center">Texto centralizado en pantallas extra-grandes o mas grandes.</p>
+        <label class="form-label">Descripcion</label>
 
-Ejemplo13: Texto dentro de su contenedor
+        <textarea type="email" class="form-control" rows="3"></textarea>
 
-<br />
+    </div>
 
-<di class="badge bg-primary text-wrap" style="width: 6rem">
+    <div class="mb-3">
 
-    Este texto no se sale de su contenedor
+        <select class="form-select">
 
-</di>
+            <option selected>Color favorito</option>
 
-<br />
+            <option value="1">Azul</option>
 
-<div class="badge bg-primary text-wrap text-break" style="width 6rem">
+            <option value="2">Rojo</option>
 
-    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+            <option value="3">Verde</option>
 
-</div>
 
-<p class="text-lowercase">Minúsculas</p>
-<p class="text-uppercase">Mayúsculas</p>
-<p class="text-capitalize">cada palabara con mayúscula</p>
+        </select>
+
+    </div>
+
+    <div class="form-check">
+
+        <input class="form-check-input" type="checkbox" />
+
+        <label class="form-label">Es empleado</label>
+
+
+    </div>
+
+
+</form>
+
