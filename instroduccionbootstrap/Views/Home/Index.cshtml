@@ -2,40 +2,48 @@
     ViewData["Title"] = "Home Page";
 }
 
-Ejemplo 12: Alinear textos
 
-<p class="text-start">Texto a la izquierda.</p>
 
-<p class="text-center">Texto en el centro.</p>
+<button type="button" class="btn btn-primary" onclick="mostrarToast()">Motrar toast</button>
 
-<p class="text-end">Texto a la derecha.</p>
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
 
-<p class="text-sm-center">Texto centralizado en pantallas pequeñas o mas grandes.</p>
+    <div id="miToast" class="toast">
 
-<p class="text-md-center">Texto centralizado en pantallas medias o mas grandes.</p>
+        <div class="toast-header">
 
-<p class="text-lg-center">Texto centralizado en pantallas grandes o mas grandes.</p>
+            <strong class="me-auto">Mensaje enviado</strong>
 
-<p class="text-xl-center">Texto centralizado en pantallas extra-grandes o mas grandes.</p>
+            <small>Hace unos instantes</small>
 
-Ejemplo13: Texto dentro de su contenedor
+            <button class="btn-close" data-bs-dismiss="toast"></button>
 
-<br />
+        </div>
 
-<di class="badge bg-primary text-wrap" style="width: 6rem">
+        <div class="toast-body">
 
-    Este texto no se sale de su contenedor
+            El mensaje fue enviado a alyson
 
-</di>
+        </div>
 
-<br />
-
-<div class="badge bg-primary text-wrap text-break" style="width 6rem">
-
-    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+    </div>
 
 </div>
 
-<p class="text-lowercase">Minúsculas</p>
-<p class="text-uppercase">Mayúsculas</p>
-<p class="text-capitalize">cada palabara con mayúscula</p>
+@section Scripts {
+
+    <script>
+
+        function mostrarToast() {
+
+            var ejemploToast = document.getElementById("miToast");
+
+            var toast = new bootstrap.Toast(ejemploToast);
+
+            toast.show();
+
+        }
+
+    </script>
+
+}
